@@ -28,6 +28,6 @@ def filename(path):
     file_out.writelines(out_lines)
     file_out.close()
 
-
-a = input("Input path to file:")
-filename(a)
+if __name__ == '__main__':
+    a = input("Input path and file:")
+    filename(a)

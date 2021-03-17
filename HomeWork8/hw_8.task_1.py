@@ -6,5 +6,6 @@ def acronim(in_words):
     return string.join(word)
 
 
-a = str(input("Write a several words. Please :"))
-print(acronim(a))
+if __name__ == '__main__':
+    a = str(input("Write a several words. Please :"))
+    print(acronim(a))

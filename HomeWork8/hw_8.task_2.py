@@ -5,6 +5,6 @@ def division(num):
             numbers.append(i)
     return numbers
 
-
-a = int(input("Input number please:"))
-print(division(a))
+if __name__ == '__main__':
+    a = int(input("Input number please:"))
+    print(division(a))
