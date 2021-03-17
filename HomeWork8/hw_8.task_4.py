@@ -16,6 +16,7 @@ def wolk_recursion(path):
     list_tuple = (path, dir_names, file_names)
     list_p.append(list_tuple)
     print(list_p)
+
     if (dir_names == []) and (file_names == []):
         return
     else:
@@ -23,6 +24,7 @@ def wolk_recursion(path):
             path_name = os.path.join(path, list_name)
             if os.path.isdir(path_name):
                 wolk_recursion(path_name)
+
 
 if __name__ == '__main__':
     print(wolk_recursion('/home/nepromah/TestWalkRecurs'))
