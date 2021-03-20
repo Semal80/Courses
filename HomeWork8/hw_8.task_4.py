@@ -27,6 +27,7 @@ def wolk_recursion(path):
 
 
 if __name__ == '__main__':
-    print(wolk_recursion('/home/nepromah/TestWalkRecurs'))
+    a = input('Input path:')
+    print(wolk_recursion(a))
     # Для сверки результатов
     # print(pprint.pprint(list(os.walk('/home/nepromah/TestWalkRecurs'))))
